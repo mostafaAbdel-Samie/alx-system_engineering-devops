@@ -1,2 +1,2 @@
 #!/bin/bash
-/iacta.sh
+cat /iacta.sh
