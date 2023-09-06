@@ -1,2 +1,4 @@
 #!/bin/bash
-./iacta.py
+with open("iacta", "r") as f:
+lines = f.readlines()
+print(lines[2])
