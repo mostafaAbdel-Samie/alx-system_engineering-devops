@@ -1,6 +1,1 @@
 #!/bin/bash
-with open("iacta", "r") as f:
-
-    line = f.readline()
-    line = f.readline()
-    print(line)
