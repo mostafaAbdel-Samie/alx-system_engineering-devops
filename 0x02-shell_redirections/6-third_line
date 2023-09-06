@@ -1,4 +1,6 @@
 #!/bin/bash
 with open("iacta", "r") as f:
-lines = f.readlines()
-print(lines[2])
+
+    line = f.readline()
+    line = f.readline()
+    print(line)
