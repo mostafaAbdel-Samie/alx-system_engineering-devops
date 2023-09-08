@@ -1,2 +1,2 @@
-#!/bin/bash 
-ls -lh /tmp/iamafile
+#!/bin/bash
+[ -e /tmp/iamafile ] && file /tmp/iamafile
