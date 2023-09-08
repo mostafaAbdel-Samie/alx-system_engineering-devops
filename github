@@ -1,5 +1,6 @@
 #!/bin/bash
-
+echo "inter prent maseg"
+read maseg
 git add .
-git commit -m "."
+git commit -m "${maseg}"
 git push 
